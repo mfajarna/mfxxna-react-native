@@ -1,10 +1,10 @@
 import React from 'react';
-import {SafeAreaView, Text} from 'react-native';
+import {SafeAreaView, StatusBar} from 'react-native';
 
 const App = () => {
   return (
     <SafeAreaView>
-      <Text>Landing Page soon</Text>
+      <StatusBar />
     </SafeAreaView>
   );
 };
